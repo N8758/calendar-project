@@ -1,0 +1,18 @@
+/* Add this CSS to your Calendar.css */
+.calendar-day {
+  position: relative;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.has-event {
+  background-color: #e3f2fd; /* Light blue background for days with events */
+}
+
+.event-indicator {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  font-size: 10px;
+  color: #2196f3; /* Blue color for event titles */
+}
